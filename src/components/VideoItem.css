@@ -1,0 +1,28 @@
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.videos .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    max-height: 200px;
+    min-height: 185px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.videos .item img{
+    max-width: 180px;
+}
+
+.videos .item p{
+    padding: 0 20px
+}
